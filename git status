@@ -1,0 +1,87 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mindex e69de29..4a2438d 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -0,0 +1,7 @@[m
+[32m+[m[32mSurvey Form Project[m
+[32m+[m
+[32m+[m[32mThis makes part of a portfolio on Free Code Camp.[m
+[32m+[m
+[32m+[m[32mSee the working version here[m
+[32m+[m
+[32m+[m[32mhttps://tomasarauj0.github.io/survey-form/[m
+\ No newline at end of file[m
+[1mdiff --git a/index.html b/index.html[m
+[1mindex e77b850..74db7fd 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1 +1,66 @@[m
+[31m-<h1 id="title">what you know about that</h1>[m
+\ No newline at end of file[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m    <head>[m
+[32m+[m[32m        <link rel="stylesheet" type="text/css" href="css/surveyform.css">[m
+[32m+[m[32m    </head>[m
+[32m+[m[32m    <body>[m[41m [m
+[32m+[m[32m        <div class="background-image">[m[41m        [m
+[32m+[m[32m            <div class="big-box">[m
+[32m+[m[32m                <h1 id="title">Reading Preferences Survey Form</h1>[m
+[32m+[m[32m                <p id="description"> Thank you for taking the time to help us with our survey </p>[m
+[32m+[m[32m                <form id="survey-form">[m
+[32m+[m[32m                <div class="question-box">[m
+[32m+[m[32m                    <label id="name-label">Name</label><br>[m
+[32m+[m[32m                    <input type="text" name="name" id="name" required placeholder="Enter your Name"><br>[m
+[32m+[m[32m                    <label id="email-label">Email</label><br>[m
+[32m+[m[32m                    <input type="email" name="email" id="email" required placeholder="Enter your Email"><br>[m
+[32m+[m[32m                    <label id="number-label">Age</label><br>[m
+[32m+[m[32m                    <input type="number" name="age" id="number" min="10" max="99" required placeholder="Age"><br>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="question-box">[m
+[32m+[m[32m                    <p>Why do you read books?</p>[m
+[32m+[m[32m                    <input type="radio" name="prefer" value="I read to learn">I read to learn<br>[m
+[32m+[m[32m                    <input type="radio" name="prefer" value="I read to be entertained">I read to be entertained<br>[m
+[32m+[m[32m                    <input type="radio" name="prefer" value="I read to further your understanding of something">I read to further your understanding of something<br>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                    <div class="question-box">[m
+[32m+[m[32m                    <p>How often do you read books?</p>[m
+[32m+[m[32m                    <select id="dropdown" name="books">[m
+[32m+[m[32m                        <option disabled selected value>Select current role</option>[m
+[32m+[m[32m                        <option value="Everyday">Everyday</option>[m
+[32m+[m[32m                        <option value="Every week">Every week</option>[m
+[32m+[m[32m                        <option value="Every month">Every month</option>[m
+[32m+[m[32m                        <option value="Every year">Every year</option>[m
+[32m+[m[32m                        <option value="Never">Never</option>[m[41m          [m
+[32m+[m[32m                    </select><br>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="question-box">[m
+[32m+[m[32m                    <p>What books themes do you like to read?</p>[m
+[32m+[m[32m                    <input type="checkbox" name="prefer" value="Productivity">Productivity<br>[m
+[32m+[m[32m                    <input type="checkbox" name="prefer" value="Relationships">Relationships<br>[m
+[32m+[m[32m                    <input type="checkbox" name="prefer" value="Spiritual">Spiritual<br>[m
+[32m+[m[32m                    <input type="checkbox" name="prefer" value="Finance">Finance<br>[m
+[32m+[m[32m                    <input type="checkbox" name="prefer" value="Cookbooks">Cookbooks<br>[m[41m  [m
+[32m+[m[32m                    <input type="checkbox" name="prefer" value="History">History<br>[m
+[32m+[m[32m                    <input type="checkbox" name="prefer" value="Biographies">Biographies<br>[m
+[32m+[m[32m                    <input type="checkbox" name="prefer" value="Poetry">Poetry<br>[m[41m      [m
+[32m+[m[32m                    <input type="checkbox" name="prefer" value="Adventure">Adventure<br>[m
+[32m+[m[32m                    <input type="checkbox" name="prefer" value="Comic Book">Comic Book<br>[m
+[32m+[m[32m                    <input type="checkbox" name="prefer" value="Fantasy">Fantasy<br>[m
+[32m+[m[32m                    <input type="checkbox" name="prefer" value="Horror">Horror<br>[m
+[32m+[m[32m                    <input type="checkbox" name="prefer" value="Romance">Romance<br>[m
+[32m+[m[32m                    <input type="checkbox" name="prefer" value="Science Fiction">Science Fiction<br>[m
+[32m+[m[32m                    <input type="checkbox" name="prefer" value="Suspense">Suspense<br>[m
+[32m+[m[32m                </div>[m[41m    [m
+[32m+[m[32m                <div class="question-box">[m
+[32m+[m[32m                    <body>[m
+[32m+[m[32m                    <div>[m[41m [m
+[32m+[m[32m                    <textarea placeholder="Enter your comment here" class="input-textarea"></textarea><br><br><br>[m[41m            [m
+[32m+[m[32m                    <button type="submit" class="submit-button" id="submit">Submit</button>[m
+[32m+[m[32m                </div>[m[41m [m
+[32m+[m[32m            </div>[m[41m [m
+[32m+[m[32m        </div>[m[41m           [m
+[32m+[m[32m        </form>[m
+[32m+[m[32m        <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"> </script>[m[41m        [m
+[32m+[m[32m    </body>[m
+[32m+[m[32m</html>[m
+[41m+            [m
+\ No newline at end of file[m

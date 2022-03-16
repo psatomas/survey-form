@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--color-white);
+    margin: 0;
+}
+.question-box {
+    background-color: royalblue;
+    color: #fff;
+    padding: 20px;
+    padding-top: 5px;
+    margin: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: royalblue;
+    text-align: justify;
+    background: rgba(65, 105, 225, 1);
+}
+.big-box {
+    background-color: orange;
+    color: #fff;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgba(265, 165, 0, .7);
+    text-align:center;
+    background: rgba(265, 165, 0, .9);
+    
+}
+.background-image {
+    background: url(https://www.vmcdn.ca/f/files/alimoshotoday/images/books.jpg;w=960) fixed center;
+    background-image: url(https://www.vmcdn.ca/f/files/alimoshotoday/images/books.jpg;w=960);
+    background-attachment: fixed;
+    background-position: center;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+  }
+.input-textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+  }
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #43a047;
+    color: inherit;
+    cursor: pointer;
+    font-size: larger;
+}

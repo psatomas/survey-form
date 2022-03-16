@@ -1,1 +1,67 @@
-<h1 id="title">what you know about that</h1>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/surveyform.css">
+    </head>
+    <body> 
+        <div class="background-image">        
+            <div class="big-box">
+                <h1 id="title">Reading Preferences Survey Form</h1>
+                <p id="description"> Thank you for taking the time to help us with our survey </p>
+                <form id="survey-form">
+                <div class="question-box">
+                    <label id="name-label">Name</label><br>
+                    <input type="text" name="name" id="name" required placeholder="Enter your Name"><br>
+                    <label id="email-label">Email</label><br>
+                    <input type="email" name="email" id="email" required placeholder="Enter your Email"><br>
+                    <label id="number-label">Age</label><br>
+                    <input type="number" name="age" id="number" min="10" max="99" required placeholder="Age"><br>
+                </div>
+                <div class="question-box">
+                    <p>Why do you read books?</p>
+                    <input type="radio" name="prefer" value="I read to learn">I read to learn<br>
+                    <input type="radio" name="prefer" value="I read to be entertained">I read to be entertained<br>
+                    <input type="radio" name="prefer" value="I read to further your understanding of something">I read to further your understanding of something<br>
+                </div>
+                    <div class="question-box">
+                    <p>How often do you read books?</p>
+                    <select id="dropdown" name="books">
+                        <option disabled selected value>Select current role</option>
+                        <option value="Everyday">Everyday</option>
+                        <option value="Every week">Every week</option>
+                        <option value="Every month">Every month</option>
+                        <option value="Every year">Every year</option>
+                        <option value="Never">Never</option>          
+                    </select><br>
+                </div>
+                <div class="question-box">
+                    <p>What books themes do you like to read?</p>
+                    <input type="checkbox" name="prefer" value="Productivity">Productivity<br>
+                    <input type="checkbox" name="prefer" value="Relationships">Relationships<br>
+                    <input type="checkbox" name="prefer" value="Spiritual">Spiritual<br>
+                    <input type="checkbox" name="prefer" value="Finance">Finance<br>
+                    <input type="checkbox" name="prefer" value="Cookbooks">Cookbooks<br>  
+                    <input type="checkbox" name="prefer" value="History">History<br>
+                    <input type="checkbox" name="prefer" value="Biographies">Biographies<br>
+                    <input type="checkbox" name="prefer" value="Poetry">Poetry<br>      
+                    <input type="checkbox" name="prefer" value="Adventure">Adventure<br>
+                    <input type="checkbox" name="prefer" value="Comic Book">Comic Book<br>
+                    <input type="checkbox" name="prefer" value="Fantasy">Fantasy<br>
+                    <input type="checkbox" name="prefer" value="Horror">Horror<br>
+                    <input type="checkbox" name="prefer" value="Romance">Romance<br>
+                    <input type="checkbox" name="prefer" value="Science Fiction">Science Fiction<br>
+                    <input type="checkbox" name="prefer" value="Suspense">Suspense<br>
+                </div>    
+                <div class="question-box">
+                    <body>
+                    <div> 
+                    <textarea placeholder="Enter your comment here" class="input-textarea"></textarea><br><br><br>            
+                    <button type="submit" class="submit-button" id="submit">Submit</button>
+                </form>
+                </div> 
+            </div> 
+        </div>           
+        
+        <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"> </script>        
+    </body>
+</html>
+            
